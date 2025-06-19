@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "grostesk-semibold-v1";
+  src: url("./assets/fonts/FoundersGrotesk-Semibold-1.ttf") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "grostesk-semibold-v2";
+  src: url("./assets/fonts/FoundersGrotesk-Semibold-2.ttf") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "neueMontreal-v1";
+  src: url("./assets/fonts/NeueMontreal-Regular-1.ttf") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "grostesk-semibold-v2";
+  src: url("./assets/fonts/NeueMontreal-Regular.ttf") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "MyFont", ui-sans-serif, system-ui;
+}
