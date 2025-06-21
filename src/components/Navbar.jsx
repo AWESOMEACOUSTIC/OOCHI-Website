@@ -9,7 +9,7 @@ function Navbar() {
                     className='w-full h-full object-cover'
                     src={ochi} alt="image" />
             </div>
-            <div className='flex gap-x-7 outline-none'>
+            <div className='flex gap-x-7 text-[#f4f0f0] outline-none'>
                 {["Services", "Our work", "About us", "Insights", "Contact us"].map((item, index) =>(
                     <a key={index} className={`font-light ${index === 4 && `ml-38`}`}>
                         {item}
