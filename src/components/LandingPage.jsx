@@ -11,7 +11,9 @@ function LandingPage() {
                             <div className='masker'>
                                 <div className='w-fit flex items-end '>
                                     {index === 1 && (
-                                        <div className='mr-3 w-[8vw] rounded-md h-[5vw] -top-[0.1vw] relative bg-green-400 overflow-hidden'></div>
+                                        <div className='mr-3 w-[8vw] rounded-md h-[5vw] -top-[0.1vw] relative overflow-hidden'>
+                                            <img className='w-full h-full object-cover' src="https://i.pinimg.com/736x/d9/4e/d3/d94ed353adb3b8445cbe900816ca33b5.jpg" alt="image" />
+                                        </div>
                                     )}
                                     <h1 key={index} className='uppercase text-9xl text-[#f4f0f0] leading-[6.221vw] tracking-normal font-[grostesk-semibold-v1]'>
                                         {item}
