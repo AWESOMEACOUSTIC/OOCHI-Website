@@ -4,6 +4,8 @@ import LandingPage from './components/LandingPage'
 import Marquee from './components/Marquee'
 import About from './components/About'
 import Playful from './components/Playful'
+import Footer from './components/Footer'
+import Ready from './components/Ready'
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Marquee/>
       <About />
       <Playful />
+      <Ready />
+      <Footer/>
     </div>
   )
 }

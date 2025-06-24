@@ -21,12 +21,12 @@ function Marquee() {
         variants={marquee}
         animate="animate">
           <motion.h1
-            className="text-[18vw] font-semibold uppercase leading-none text-zinc-300 font-[grostesk-semibold-v1]"
+            className="text-[18vw] font-semibold uppercase leading-none text-white font-[grostesk-semibold-v1]"
           >
             We are ochi
           </motion.h1>
           <motion.h1
-            className="text-[18vw] font-semibold uppercase leading-none text-zinc-300 font-[grostesk-semibold-v1]"
+            className="text-[18vw] font-semibold uppercase leading-none text-white font-[grostesk-semibold-v1]"
           >
             We are ochi
           </motion.h1>
